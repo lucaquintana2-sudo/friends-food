@@ -1,0 +1,68 @@
+====================================================
+FRIENDS FOOD — Instrucciones de edición y subida
+====================================================
+
+ESTRUCTURA DE ARCHIVOS
+-----------------------
+  index.html    → toda la estructura de la web
+  style.css     → todos los estilos (colores, fuentes, tamaños)
+  script.js     → animaciones (no hace falta tocarlo)
+  assets/       → carpeta para tus fotos
+
+  Subís a Hostinger esta carpeta completa arrastrando.
+
+
+CÓMO CAMBIAR PRECIOS (con el Bloc de notas)
+--------------------------------------------
+  1. Abrí index.html con el Bloc de notas
+  2. Usá Ctrl+F (buscar) y buscá exactamente el texto del precio que querés cambiar:
+       $20.000    → precio del Combo 1
+       $25.000    → precio del Combo 2
+       $3.000     → precio del flan
+  3. Cambiá solo el número. No borres el signo $ ni el punto.
+  4. Guardá con Ctrl+S.
+  5. Volvé a subir el index.html a Hostinger.
+
+
+CÓMO AGREGAR TUS FOTOS
+------------------------
+  Poné tus fotos dentro de la carpeta "assets/" con estos nombres exactos:
+
+    assets/sandwich.jpg   → foto del sándwich de bondiola
+    assets/pizzetas.jpg   → foto de las pizzetas
+    assets/nuggets.jpg    → foto de los nuggets
+    assets/flan.jpg       → foto del flan casero
+    assets/combo1.jpg     → foto de portada del Combo 1 (opcional)
+    assets/combo2.jpg     → foto de portada del Combo 2 (opcional)
+
+  Las fotos funcionan bien en formato JPG o PNG.
+  Si no ponés una foto, simplemente no aparece ese espacio (no rompe nada).
+
+
+CÓMO SUBIR A HOSTINGER
+------------------------
+  1. Entrá al panel de Hostinger → Administrador de archivos
+  2. Entrá a la carpeta public_html (o el dominio que uses)
+  3. Arrastrá y soltá todos los archivos:
+       index.html
+       style.css
+       script.js
+       carpeta assets/ (con todas las fotos adentro)
+  4. Listo. La web ya está activa.
+
+
+NÚMERO DE WHATSAPP
+------------------
+  Si cambiás de número, buscá en index.html el texto:
+    543764731601
+  y reemplazalo por el nuevo número (sin + ni espacios, con código de país).
+  Hay varios en el archivo — cambiá todos.
+
+
+INSTAGRAM
+---------
+  Si cambiás el usuario de Instagram, buscá en index.html:
+    friendfood_eventos
+  y cambialo por el nuevo usuario.
+
+====================================================
