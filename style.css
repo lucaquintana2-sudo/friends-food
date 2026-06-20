@@ -548,3 +548,12 @@ a { color: inherit; text-decoration: none; }
   .delivery__inner { flex-direction: column; }
   .footer__links { flex-direction: column; gap: .5rem; }
 }
+
+/* =============================================
+STICKER IMAGES — blend mode para fondo transparente
+============================================= */
+.flame img,
+.delivery__icon img,
+.btn img {
+  mix-blend-mode: multiply;
+}
