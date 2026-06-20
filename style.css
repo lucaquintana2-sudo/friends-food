@@ -557,3 +557,14 @@ STICKER IMAGES — blend mode para fondo transparente
 .btn img {
   mix-blend-mode: multiply;
 }
+
+/* =============================================
+FONDO GENERAL DE LA PÁGINA
+============================================= */
+body {
+  background-image: url('bg-texture.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
