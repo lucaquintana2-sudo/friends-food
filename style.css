@@ -267,7 +267,6 @@ a { color: inherit; text-decoration: none; }
   box-shadow: 0 16px 40px rgba(0,0,0,.5);
 }
 
-/* Ribbon "más completo" */
 /* ── Fondo textura oscura: Combo 1 y Combo 2 ── */
 .combo-card:nth-child(1),
 .combo-card:nth-child(2) {
