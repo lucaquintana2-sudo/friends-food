@@ -268,6 +268,16 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* Ribbon "más completo" */
+/* ── Fondo textura oscura: Combo 1 y Combo 2 ── */
+.combo-card:nth-child(1),
+.combo-card:nth-child(2) {
+  background-image: url('dark-texture.jpg');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+
+/* Ribbon "más completo" */
 .combo-card__ribbon {
   position: absolute;
   top: 1.2rem;
